@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+
+
+/* HEADER */
+.header .header__info ul{
+    margin-bottom: 0;
+}
+.header__info{
+    background-color: #0D369F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    transition: all 0.5s;
+}
+.header__info a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.header__info ul li{
+    list-style: none;
+    display: inline;
+}
+.header__info ul li a{
+    text-decoration: none;
+}
+.info__text li{
+    margin-left: 30px;
+}
+.info__text ul li i{
+    margin-right: 4px;
+}
+.info__icon li{
+    margin-right: 30px;
+}
+.info__text span, .info__icon a{
+    transition: all 0.5s;
+}
+.info__text span:hover, .info__icon a:hover{
+    color:#ff6e65;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+
+}
+.logo{
+    padding-top:10px ;
+}
+.logo span{
+    display: inline;
+    color: #0d369f;
+    font-size: 26px;
+    font-weight: 600;
+}
+.logo img{
+    padding-bottom: 10px;
+}
+.menu{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu input{
+    position: relative;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #060606;
+    padding: 22px 18px 22px;
+    border: 2px solid #eee;
+}
+.menu form i{
+    position: absolute;
+    right: 80px;
+    color: #0D369F;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #060606;
+    transition: all 0.5s;
+}
+.menu ul{
+    margin-right: 10px;
+    padding-top: 15px;
+}
+.menu span i{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #0D369F;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.menu a:hover, .menu form i:hover, .menu span i:hover{
+    color:#ff6e65;
+}
+
+
+/* CAROUSEL */
+
+.carousel__item img{
+    background-repeat: no-repeat;
+    background-position: center right;
+    /* overflow: hidden; */
+    background-size: cover;
+    object-fit: contain;
+}
